@@ -1,0 +1,180 @@
+/********Front-end Style Guide********
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%) #E0E8FF button hover
+- Bright blue: hsl(245, 75%, 52%) #3829e0 button
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%) #FFFFFF button text
+- Desaturated blue: hsl(224, 23%, 55%) #7280A7 body text
+- Dark blue: hsl(223, 47%, 23%) #1F2F56 heading text
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
+
+/**********Tag Selectors*********/
+
+body {
+    background-color: #E0E8FF;
+    background-image: url("Images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    color: #7280A7;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h2 {
+    color: #1F2F56;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+
+
+/**********Class Selectors**********/
+
+.annual-plan {
+    color: #1F2F56;
+    position: relative;
+    bottom: 15px;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 1em;
+    left: 6px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.background {
+    display: inline;
+    float: right;
+}
+
+.btn {
+    position: relative;
+    top: 85px;
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    -webkit-box-shadow: 9px 25px 20px #F5F7FF;
+    -moz-box-shadow: 9px 25px 20px #F5F7FF;
+    box-shadow: 9px 25px 20px #F5F7FF;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-kerning: none;
+    font-weight: 700;
+    background: #3829e0;
+    margin-top: 2rem;
+    padding: 12px 80px 12px 80px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ACA6F2;
+    text-decoration: none;
+  }
+
+  .cancel {
+    position: relative;
+    margin: auto;
+    top: 120px;
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+  .cancel:hover {
+    color: #1F2F56;
+  }
+
+  .change {
+    color: #3829e0;
+    font-size: 12px;
+    font-weight: 900;
+    position: relative;
+    left: 13px;
+    bottom: 4px;
+    text-decoration: underline;
+    
+  }
+
+  .change:hover {
+    color: #ACA6F2;
+  }
+
+  .container {
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    text-align: center;
+    width: 360px;
+    height: 560px;
+    background-color: white;
+    border-radius: 13px;
+  }
+
+  .hero {
+    border-radius: 13px 13px 0px 0px;
+    margin-bottom: 10px;
+    width: 360px;
+  }
+
+  .icon {
+    position: relative;
+    right: 13px;
+    top: 11px;
+    width: 38px;
+  }
+
+  .plan {
+    display: inline;
+    background-color: #F5F7FF;
+    border-radius: 13px;
+    margin-top: 0px;
+    padding: 30px 40px 30px 40px;
+    position: relative;
+    top: 25px;
+  }
+
+   .price {
+    
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    right: 72px;
+    top: 7px;
+  }
+
+  .text {
+    width: 300px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
