@@ -41,8 +41,9 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-h2 {
+h1 {
     color: #1F2F56;
+    font-size: 22px;
     font-weight: 900;
     margin-top: 20px;
     margin-bottom: 12px;
@@ -137,6 +138,9 @@ h2 {
     height: 560px;
     background-color: white;
     border-radius: 13px;
+    -webkit-box-shadow: 0px 1px 25px #7280A7;
+    -moz-box-shadow: 0px 1px 25px #7280A7;
+    box-shadow: 0px 1px 25px #7280A7;
   }
 
   .hero {
