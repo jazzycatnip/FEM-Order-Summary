@@ -7,4 +7,5 @@ Users should be able to:
 
 Continued Development:
   - Create branch updated for mobile
+  - Update Scale
   - Update for accessibility
