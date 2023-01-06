@@ -6,4 +6,5 @@ Users should be able to:
   - See hover states for interactive elements
 
 Continued Development:
-  - create branch with specs after veiwing solution video
+  - Create branch updated for mobile
+  - Update for accessibility
